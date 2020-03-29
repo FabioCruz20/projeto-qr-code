@@ -1,0 +1,37 @@
+/* TODO: Implementar css responsivo e demais classes */
+
+.container {
+    margin-top: 15vh;;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    padding: 40px 20px;
+    height: 50vh;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+.card-header {
+    text-transform: uppercase;
+}
+
+.card-header h3:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #fafafa;
+    margin-top: 8px
+}
+
+.card-positivo {
+    background-color: #c54747;
+    color: #fafafa;
+}
+
+.card-negativo {
+    background-color: #47c747;
+    color: #fafafa;
+}
